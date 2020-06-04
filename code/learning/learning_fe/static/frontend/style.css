@@ -1,0 +1,107 @@
+.login-form{
+    margin: 0 auto;
+    width: 30%;
+}
+
+.footer{
+    height: 60px;
+    background-color: #00a2ff;
+}
+
+.logo{
+    width: 60px;
+}
+
+.logos{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #00a2ff !important;
+    font-size: 1.2rem;
+}
+
+html, body, #app, .main, .home, .classes {
+    margin: 0;
+    height: 100%;
+}
+
+#app > div{
+    margin: 0;
+    height: 100%;
+}
+
+.home{
+    background-image: url('/static/images/background2.jpg');
+    display: flex;
+}
+
+.classes{
+    background-image: url('/static/images/background.jpg');
+    display: flex;
+}
+
+.home-text{
+    font-family: Comic Sans MS;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2%;
+    color: wheat;
+}
+
+.card-link{
+    color: black;
+}
+
+.home-left-img{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+}
+
+.home-left-img2{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 3%;
+    top: 60%;
+}
+
+.home-right-img{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    right: 3%;
+    top: 20%;
+}
+
+.home-right-img2{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    right: 3%;
+    top: 60%;
+}
+
+nav.nav-tabs, .tab-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.subject-btn{
+    margin-bottom: 5px;
+}
+
+.classes-tabs{
+    width: 50%;
+    margin: 0 auto;
+}
